@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class ransom
+{
+    public static void main(string[] args)
+{
+     Scanner s=new Scanner(System.in);
+     System.out.print("enter the ransom note:");
+     string r=sc.nextLine();
+     System.out.print("enter the magazine note:");
+      string m=sc.nextLine();
+     if(r==m)
+     {
+        System.out.println(""+true);
+      }
+      else
+      {
+           System.out.println(""+false);
+      }
+}
+}
